@@ -1,0 +1,16 @@
+{
+    "LOGFILE": "./wc.log",
+
+    "N_NORMAL_WORKERS": 8,
+    "N_CRASHING_WORKERS": 0,
+    "N_SLEEPING_WORKERS": 0,
+
+    "DATA_PATH":  "/home/baadalvm/col733-cloud/labs/lab1/csvs/*.csv",
+    "IN":  "files",
+    "FNAME":  "fname",
+    "COUNT":  "count",
+    "GROUP": "group",
+
+    "CHECKPOINT_INTERVAL": 2,
+    "REDIS_DOWNTIME": 1
+}
